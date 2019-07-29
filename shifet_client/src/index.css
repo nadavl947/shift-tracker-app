@@ -1,0 +1,176 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: arial;
+}
+body a {
+  text-decoration: none;
+  color: black;
+}
+body input {
+  outline: none;
+  border: none;
+  background: none;
+  cursor: pointer;
+  transition: 0.2s;
+}
+body ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+body button {
+  cursor: pointer;
+}
+/*================================header==========================*/
+.header{
+  width: 100%;
+  background-color: rgb(51, 51, 51) ;
+  box-shadow: 0 5px 8px -6px black;
+}
+.header li{
+  display: inline-block;
+  margin: 0px 5px;
+  padding: 5px;
+}
+.header a {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 2;
+  color: white;
+}
+.fotter{
+  margin-top: 2% !important;
+  width: 80%;
+  margin: 0px 10%;
+  border-top: 3px solid black;
+  padding: 10px 10px;
+}
+
+/*================================log in page components============*/
+.loginPage{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.loginBox {
+  box-shadow: 0px 0px 8px 0px black;
+  text-align: center;
+  width: 30%;
+  padding: 20px 0px;
+  line-height: 2;
+  background-color: rgb(255, 255, 255, 0.4);
+}
+.loginBox h1 {
+  margin: 0px;
+}
+.loginBox  h2 {
+  font-size: 15px;
+  line-height: 2;
+  box-shadow: inset -13px 18px 88px -38px rgba(0,0,0,0.75);
+  width: 90%;
+  border-radius: 10px;
+  margin: 10px auto;
+}
+.confirmBtn {
+  background-color: lime;
+  border: none;
+  width: 50%;
+  height: 30px;
+  box-shadow: 0px 0px 3px 0px black;
+  font-weight: bold;
+  margin: 1% 0px;
+}
+.changeUser {
+  background-color: red;
+  border: none;
+  width: 50%;
+  height: 30px;
+  box-shadow: 0px 0px 3px 0px black;
+  font-weight: bold;
+}
+/*================================Home page components============*/
+.homePage {
+  line-height: 2;
+  text-align: center;
+  font-weight: bold;
+  min-height: 100vh
+}
+.homePage h1{
+  font-family: cursive;
+  margin: 0px;
+}
+.pastColumnsTable {
+  overflow-y: scroll;
+  background-color: rgb(255, 255, 255, 0.4);
+  box-shadow: 0px 0px 8px 0px black;
+  width: 90%;
+  height: 500px;
+  margin: 0px 5%;
+}
+.pastColumnsTable td {
+  width: 20%;
+  box-shadow: 0 4px 4px -6px black;
+}
+.pastColumnsTable th {
+  border-bottom: 1px solid Forestgreen;
+}
+.addShift {
+  padding: 5px;
+  width: 50%;
+  margin: 2% 25%;
+  box-shadow: 0px 0px 8px 0px black;
+}
+.addShift li {
+  display: inline-block;
+  margin: 0px 1%;
+}
+.addShift input {
+  width: 100px;
+  margin: 5px 5px;
+  text-align: center;
+  box-shadow: 0 5px 8px -6px Forestgreen;
+}
+.addBtn {
+  background-color: Forestgreen;
+  color: white;
+  font-family: cursive;
+  font-size: 15px;
+}
+.deleteBtn input{
+  background-color: firebrick;
+  border-radius: 15px;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+}
+/*================================tables page components============*/
+.StatisticsPage {
+  min-height: 100vh;
+}
+.StatisticsPage h1{
+    text-align: center;
+}
+.statisticsLine {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  font-family: cursive;
+  padding-right: 5%;
+}
+.statBox {
+  display: flex;
+  margin: 5px;
+  padding: 10px 5px;
+  width: 100%;
+}
+.statBox td {
+  border-bottom: 1px solid Forestgreen;
+  width: 120px;
+  padding: 0px
+}
+.statBox h2 {
+  margin: 10px;
+  text-align: right;
+}
