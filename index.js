@@ -9,7 +9,7 @@ const usersQuery = 'SELECT * FROM shifts_users';
 var connection = mysql.createConnection({
     host: 'localhost',
     user: 'root',
-    password: 'myass123',
+    password: '',
     database: 'shift_app'
 })
 
